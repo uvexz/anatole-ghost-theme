@@ -1,0 +1,28 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
+{{! The big featured header }}
+<div class="sidebar animated fadeInDown">
+      <div class="logo-title">
+        <div class="title">{{#if @blog.logo}}<img src="{{@blog.logo}}" style="width:127px;" alt="{{@blog.title}}" /></a>{{else}}<img src="//ooo.0o0.ooo/2015/11/19/564d966f0c18c.png" style="width:127px;"/>{{/if}}
+          <h3 title=""><a href="/">{{@blog.title}}</a></h3>
+          <div class="description">
+            <p>{{@blog.description}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+            <span>Designed by </span><a href="https://www.caicai.me" target="_blank">CaiCai</a>
+            <span>Modified by </span><a href="http://www.yangjinkun.cn" target="_blank">YJK</a>
+            <div class="by_farbox"><a href="https://github.com/TryGhost/Ghost" target="_blank">Proudly published with Ghost</a></div>
+      </div>
+</div>
+
+{{! The main content area on the homepage }}
+<div class="main">
+    <div class="page-top animated fadeInDown">
+    {{navigation}}
+    {{! The tag below includes the post loop - partials/loop.hbs }}
+    {{> "loop"}}
+    </div>
+</div>
