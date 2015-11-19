@@ -7,41 +7,42 @@
 {{#post}}
 {{#if image}}<style>.sidebar{background-image: url({{image}});background-color: #fff;background-repeat: no-repeat;background-position: center center;background-size: cover;text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3)!important;color: #fff!important;}.sidebar a,.sidebar p{color: #fff!important;text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);}</style>{{/if}}
 <div class="sidebar animated fadeInDown">
-      <div class="logo-title">
-        <div class="title">{{#if @blog.logo}}<img src="{{@blog.logo}}" style="width:127px;" alt="{{@blog.title}}" /></a>{{else}}<img src="//ooo.0o0.ooo/2015/11/19/564d966f0c18c.png" style="width:127px;"/>{{/if}}
-          <h3 title=""><a href="/">{{@blog.title}}</a></h3>
-          <div class="description">
-            <p>{{@blog.description}}</p>
-          </div>
+        <div class="logo-title">
+            <div class="title">{{#if @blog.logo}}<img src="{{@blog.logo}}" style="width:127px;" alt="{{@blog.title}}" /></a>{{else}}<img src="//ooo.0o0.ooo/2015/11/19/564d966f0c18c.png" style="width:127px;"/>{{/if}}
+            <h3 title=""><a href="/">{{@blog.title}}</a></h3>
+            <div class="description">
+                <p>{{@blog.description}}</p>
+            </div>
+            </div>
         </div>
-      </div>
-      <div class="footer">
+        <div class="footer">
             <span>Designed by </span><a href="https://www.caicai.me" target="_blank">CaiCai</a>
             <span>Modified by </span><a href="http://www.yangjinkun.cn" target="_blank">YJK</a>
             <div class="by_farbox"><a href="https://github.com/TryGhost/Ghost" target="_blank">Proudly published with Ghost</a></div>
-      </div>
+        </div>
 </div>
 <div class="main">
     <div class="page-top animated fadeInDown">
     {{navigation}}
+    </div>
 
-<div class="autopagerize_page_element">
-  <div class="content">
-    <div class="post-page">
-
-<div class="post animated fadeInDown">
-  <div class="post-title"><h3>{{title}}</h3></div>
-  <div class="post-content">
-    {{content}}
-  </div>
-  <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-calendar"></i><span class="date">{{date format='YYYY-MM-DD'}}</span>
-      </div>
-     </div>
-  </div>
-</div>
-
+    <div class="autopagerize_page_element">
+        <div class="content">
+            <div class="post-page">
+                <div class="post animated fadeInDown">
+                    <div class="post-title"><h3>{{title}}</h3></div>
+                    <div class="post-content">
+                         {{content}}
+                    </div>
+                </div>
+                <div class="post-footer">
+                    <div class="meta">
+                        <div class="info"><i class="fa fa-calendar"></i><span class="date">{{date format='YYYY-MM-DD'}}</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
