@@ -39,6 +39,14 @@ a:hover, a:active {
 
 }
 
+hr {
+    border: none;
+    height: 1px;
+    color: #e2e2e2;
+    background-color: #e2e2e2;
+    margin-bottom: 1em;
+}
+
 /*animation starts*/
 
 .animated {
@@ -286,6 +294,16 @@ a:hover, a:active {
 .post .post-content img {
 			min-width: 100%;
 		}
+
+.post .post-content ul {
+			  list-style: square;
+			  margin: 1em 0px 1em 1em;
+			  padding: 0px;
+		}
+.post .post-content ul li {		
+		    	padding: 0px;
+    			margin: 0px;
+}
 
 .post .post-footer {
 		padding: 0 0 30px 0;
