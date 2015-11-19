@@ -47,6 +47,33 @@ hr {
     margin-bottom: 1em;
 }
 
+code {
+    background-color: #f8f8f8;
+    padding: 1px 2px 1px 2px;
+    border-radius: 2px;
+    font-family: 'Consolas', 'Panic Sans', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Menlo', 'Microsoft Yahei', monospace;
+}
+
+pre {
+    font-family: 'Consolas', 'Panic Sans', 'Consolas', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Menlo', 'Microsoft Yahei', monospace;
+    font-size: 13px;
+    letter-spacing: 0.015em;
+    line-height: 120%;
+    padding: 0.5em;
+    margin: 0px;
+    white-space: pre;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+blockquote {
+    font-family: 'Consolas', 'Panic Sans', 'Consolas', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Menlo', 'Microsoft Yahei', monospace;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 1.75em 0 1.75em 0;
+    padding: 0 0 0 1.75em;
+    border-left: #4A4A4A 0.3em solid;
+}
 /*animation starts*/
 
 .animated {
