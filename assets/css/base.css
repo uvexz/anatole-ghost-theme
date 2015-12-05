@@ -76,12 +76,12 @@ dl dt {
     margin-bottom: 1em; }
 
     hr {
-      display: block;
-      height: 1px;
-      border: 0;
-      border-top: 1px solid #efefef;
-      margin: 3.2em 0;
-      padding: 0; }
+     border: none;
+     height: 1px;
+     color: #e2e2e2;
+     background-color: #e2e2e2;
+     margin: 10px 0;
+    }
 
       blockquote {
         -moz-box-sizing: border-box;
