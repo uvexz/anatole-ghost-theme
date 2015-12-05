@@ -8,12 +8,12 @@
 
 如何使用多说：
 
- ![14B1B1D6-32B5-4266-9ACC-1BCC46A539D6.png](https://dn-cdn-image.qbox.me/b442ca602148e326865a1ed6ea7dfeeb) 
+ ![duoshuo](https://ooo.0o0.ooo/2015/12/04/5662605c5141a.png) 
 
  在后台 `Code Injection` 的 `Blog Footer` 里插入：
 
      <script type="text/javascript">
-     var duoshuoQuery = {short_name:"*****"}; // ***** 换成你自己的多说ID
+     var duoshuoQuery = {short_name:"*****"}; //***** 换成你自己的多说ID
      (function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
