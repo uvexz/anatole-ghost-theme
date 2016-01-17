@@ -36,12 +36,10 @@ Anatole 是由 [hi-caicai](https://github.com/hi-caicai) 制作的一款 Farbox 
 
 ---
 
-现在有效的预览地址： https://blog-yoursever.rhcloud.com/
+现在有效的预览地址： https://yjk.im/
 
 Win下的预览：
 
 ![Win](https://ooo.0o0.ooo/2015/11/19/564dd67357b9e.png)
 
-Mac下的预览：
 
-![OSX](https://ooo.0o0.ooo/2015/11/19/564dd6bc7c0f3.png)
