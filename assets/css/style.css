@@ -648,6 +648,11 @@ a.btn {
 		display: flex;
 		display: -webkit-box;
 	}
+	.post {
+		background-color: #FFF;
+		margin: 0px;
+		padding: 30px;
+	}
 	
 }
 
